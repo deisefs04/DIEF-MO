@@ -1,0 +1,25 @@
+# DIEF-MO theme — SENAI-inspired palette (institutional blue on white).
+# Body: white, technical and legible. Sidebar: deep navy for brand presence.
+[theme]
+base = "light"
+primaryColor = "#0090D4"               # SENAI bright blue (actions, accents)
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#EEF4FB"   # light blue (cards, inputs)
+textColor = "#10243F"                  # deep slate-navy
+linkColor = "#0072B8"
+borderColor = "#D5E3F0"
+dataframeBorderColor = "#D5E3F0"
+showWidgetBorder = true
+showSidebarBorder = false
+baseRadius = "8px"
+buttonRadius = "8px"
+font = "'IBM Plex Sans':https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+headingFont = "'Archivo':https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&display=swap"
+codeFont = "'IBM Plex Mono':https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap"
+
+[theme.sidebar]
+backgroundColor = "#0C2D5A"            # deep SENAI navy
+secondaryBackgroundColor = "#10336A"
+textColor = "#E8F1FB"
+primaryColor = "#37A7E0"               # lighter blue accent on navy
+borderColor = "#20457C"
